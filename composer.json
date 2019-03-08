@@ -1,0 +1,18 @@
+{
+    "name": "arno/bilateral-doctrine-relations",
+    "description": "Examples for how to define setters on bilateral doctrine relations so that they always keep in sync.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arno Hilke",
+            "email": "arno.hilke@tum.de"
+        }
+    ],
+    "require": {
+        "doctrine/collections": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {"": "src/"}
+    }
+}
